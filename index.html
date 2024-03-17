@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction BEM — Block Element Modifier</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header block -->
+    <header class="header">
+        <!-- Header logo element -->
+        <div class="header__logo">
+            <i class="fas fa-code"></i> Logo
+        </div>
+        <!-- Navigation block -->
+        <nav class="nav">
+            <!-- Navigation list element -->
+            <ul class="nav__list">
+            <!-- Navigation item elements -->
+            <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-home"></i> Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-info-circle"></i> About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content block -->
+    <main class="main">
+        <!-- Hero section block -->
+        <section class="hero">
+            <!-- Hero content element -->
+            <div class="hero__content">
+            <!-- Hero title element -->
+            <h1 class="hero__title">Welcome to Our Website</h1>
+            <!-- Hero subtitle element -->
+            <p class="hero__subtitle">Learn about our awesome services!</p>
+            <!-- Button element -->
+            <a href="#" class="button button--primary"><i class="fas fa-arrow-right"></i> Learn More</a>
+            </div>
+        </section>
+
+        <!-- Card section block -->
+        <section class="card">
+            <!-- Card title element -->
+            <h2 class="card__title"><i class="fas fa-star"></i> Featured Product</h2>
+            <!-- Card content element -->
+            <div class="card__content">
+            <!-- Card image element -->
+            <img src="product.jpg" alt="Product Image" class="card__image">
+            <!-- Card description element -->
+            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <!-- Button element -->
+            <a href="#" class="button button--secondary"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer block -->
+    <footer class="footer">
+        <!-- Footer copyright element -->
+        <div class="footer__copyright">
+            &copy; 2024 Example Company. All rights reserved.
+        </div>
+    </footer>
+
+    </body>
+</html>
